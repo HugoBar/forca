@@ -1,0 +1,29 @@
+{
+  "name": "forca",
+  "bin": {
+    "forca": "./dist/index.js"
+  },
+  "version": "0.0.1",
+  "description": "CLI Hangman Game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsc -w",
+    "link-cli": "(pnpm --global unlink climato || true) && pnpm link --global"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HugoBar/forca.git"
+  },
+  "keywords": [],
+  "author": "Hugo Barreiro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HugoBar/forca/issues"
+  },
+  "homepage": "https://github.com/HugoBar/forca#readme",
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.8.3"
+  }
+}
